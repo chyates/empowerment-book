@@ -1,0 +1,59 @@
+<h2 class="text-center teal mb-3">Share Your Experience</h2>
+
+<form id="exp-form" class="col-10 mx-auto needs-validation" novalidate>
+  <div class="form-group mb-3">
+    <label class="sr-only">Full name</label>
+    <input type="text" class="form-control" name="full-name" required placeholder="Enter your full name">
+    <div class="invalid-feedback">
+      Please provide your name.
+    </div>
+  </div>
+
+  <div class="form-group mb-3">
+    <label class="sr-only">Email address</label>
+    <input type="email" class="form-control" name="email" required placeholder="Enter your email address">
+    <div class="invalid-feedback">
+        Please provide a valid email address.
+      </div>
+  </div>
+
+  <div class="form-group mb-3">
+    <label class="mr-4">Would you like to be anonymous?</label>
+    <div class="form-check form-check-inline">
+      <input type="checkbox" class="form-check-input" name="anonymous-status" value="Yes">
+      <label class="form-check-label">Yes</label>
+    </div>
+    
+    <div class="form-check form-check-inline">
+      <input type="checkbox" class="form-check-input" name="anonymous-status" value="No">
+      <label class="form-check-label">No</label>
+    </div>
+  </div>
+
+  <label>Please share your experiences below:</label>
+  <div class="form-group mb-3">
+    <label class="sr-only">Narrative</label>
+    <textarea class="form-control" cols="50" rows="4" placeholder="Please describe your experience(s) with gender inequality." required></textarea>
+    <div class="invalid-feedback">
+      Text boxes are required.
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="sr-only">Tools</label>
+    <textarea class="form-control" cols="50" rows="4" placeholder="What tools did you use to combat this inequality?" required></textarea>
+    <div class="invalid-feedback">
+      Text boxes are required.
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="sr-only">Future</label>
+    <textarea class="form-control" cols="50" rows="4" placeholder="What can we do in the future to prevent gender inequality?" required></textarea>
+    <div class="invalid-feedback">
+      Text boxes are required.
+    </div>
+  </div>
+
+  <input type="submit" class="btn btn-primary" value="Share">
+</form>

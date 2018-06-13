@@ -1,0 +1,12 @@
+#exp-form .btn.btn-primary {
+    background-color: var(--coral);
+    text-transform: uppercase;
+    border-color: var(--coral);
+    padding: 3vh 7vw;
+    display: block;
+    margin: 0 auto;
+}
+
+#exp-form input, textarea {
+    background-color: var(--light);
+}

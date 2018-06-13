@@ -1,0 +1,6 @@
+#home-hero {
+    background-image: url('/assets/skyscraper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
